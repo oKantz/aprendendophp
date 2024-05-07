@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMS E PHP</title>
+</head>
+<body>
+
+    <div class="area">    
+        <nav>
+        <form action="aula1php.php" method="post">
+                <fieldset id="field">
+                    <legend> FAÇA SEU REGISTRO ABAIXO </legend>
+                    <div class="login">
+                        <label for="nome"> DIGITE SEU NOME: </label> <br>
+                        <input type="text" id="nome" name="nome" required> <br>
+                        <br>
+                        <label for="email"> DIGITE SEU EMAIL: </label> <br>
+                        <input type="email" id="email" name="email" required> <br>
+                        <br>
+                        <Label for="senha" id="senha"> DIGITE SUA SENHA:</Label> <br>
+                        <input type="password" name="senha" id="password" required> <br>
+    
+                    <p>
+                    <hr id="field1">
+                    <p>
+                            
+                        <label for="data">ANIVERSÁRIO::</label> <br>
+                        <br>
+                        <input type="date" value="data" name="data" required>
+                        
+                        <p> SELECIONE SEU GENERO: </p>
+    
+                        <input type="radio" id="sexo" name="sexo" value="HOMEM">
+                        <label for=""> HOMEM </label> 
+                        <br>
+                        <input type="radio" id="sexo" name="sexo" value="MULHER">
+                        <label for=""> MULHER </label> 
+                        <br>
+                        <input type="radio" id="sexo" name="sexo" value="OUTRO">
+                        <label for=""> OUTRO </label> 
+                        <br>
+    
+                        <input type="submit">
+                </fieldset>
+        </form>
+        </nav>   
+    
+    </div>
+    
+</body>
+</html>
