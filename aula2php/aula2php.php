@@ -23,6 +23,30 @@ echo $nome;
     echo "<br> Operador ternario<br>";
     $resposta = $dia < 10 ? "Menor que 10" : "Maior ou igual";
     echo $resposta;
+    echo "<br>";
+
+
+
+
+
+ echo "<br>";
+
+
+
+
+
+
+
+
+
+for($i = 0; $i <= 100; $i++){
+    if ($i == 3) continue;
+    echo "O Número é: $i <br>";
+    echo "<br>";
+
+
+}
+
 
 
 
