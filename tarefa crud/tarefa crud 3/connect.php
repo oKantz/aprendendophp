@@ -8,4 +8,5 @@ $password = "";
 
 $dbname = "samueldb";
 
-$con = mysqli_iconnect
+$con = mysqli_connect($localhost, $username, $password, $dbname);
+if ($con->connect_error){ die("connection failed: " . $con->connect_error);}
