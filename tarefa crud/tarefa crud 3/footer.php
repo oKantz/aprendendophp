@@ -1,5 +1,3 @@
 <hr>
-<div class="container"> $copy; 2019 </div>
-
-</body>
-</html>
+<div class="container">     &copy; 2019 </div>
+</body> </html>
